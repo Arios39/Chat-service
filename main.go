@@ -1,12 +1,12 @@
 package main
 
 import (
+	"Chat-service/proto/proto"
 	"log"
 	"net"
 	"os"
 	"sync"
 
-	"github.com/Arios39/Chat-service/proto/"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
 	glog "google.golang.org/grpc/grpclog"
